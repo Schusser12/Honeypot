@@ -2,8 +2,15 @@
 
 export LD_LIBRARY_PATH=~/delister/usr/lib64:$LD_LIBRARY_PATH
 
-npm install puppeteer@10
+# Check if Puppeteer is installed, and install it if not
+if ! npm list puppeteer@10 &>/dev/null; then
+    echo "Puppeteer is not installed. Installing Puppeteer..."
+    npm install puppeteer@10
+else
+    echo "Puppeteer is already installed."
+fi
 
+# Function to get public IPs
 ips ()
 {
     if [ "$1" == '-6' ]; then
@@ -35,4 +42,11 @@ echo "$public_ip" > public_ip.txt
 # Pass the public IP to the Node.js script
 node delist.js "$(cat public_ip.txt)"
 
-rm -rf ~/delister*
+# Ask the user before performing the cleanup
+read -p "Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: " cleanup
+if [[ "$cleanup" =~ ^[Yy]$ ]]; then
+    echo "Performing cleanup..."
+    rm -rf ~/delister*
+else
+    echo "Skipping cleanup."
+fi
