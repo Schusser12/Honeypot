@@ -5,7 +5,7 @@ export LD_LIBRARY_PATH=~/delister/usr/lib64:$LD_LIBRARY_PATH
 # Check if Puppeteer is installed, and install it if not
 if ! npm list puppeteer@10 &>/dev/null; then
     echo "Puppeteer is not installed. Installing Puppeteer..."
-    npm install puppeteer@10
+    npm install puppeteer@10 &>/dev/null
 else
     echo "Puppeteer is already installed."
 fi
