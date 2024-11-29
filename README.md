@@ -68,8 +68,13 @@ Enter the CAPTCHA text: 817f9c7d
 CAPTCHA incorrect or submission failed. Retrying...
 Failed to solve CAPTCHA after maximum attempts.
 ```
+- choose no (don't clean up) if it fails
+```bash
+Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: n
+Skipping cleanup.
+```
 
-- if it fails, try again
+- then, try again
 ```bash
 ┌──(msallam🦄cloudhost-143970)-[~/delister]
 └─$ sh delist.sh
