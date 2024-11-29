@@ -27,6 +27,7 @@ Warning: Permanently added 'cloudhost-143970.us-west-1.nxcli.net,173.249.144.20'
 ```bash
 ┌──(msallam🦄cloudhost-143970)-[~/delister]
 └─$ sh delist.sh
+Puppeteer is not installed. Installing Puppeteer...
 npm WARN deprecated puppeteer@10.4.0: < 22.8.2 is no longer supported
 npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
 npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
@@ -72,6 +73,7 @@ Failed to solve CAPTCHA after maximum attempts.
 ```bash
 ┌──(msallam🦄cloudhost-143970)-[~/delister]
 └─$ sh delist.sh
+Puppeteer is already installed.
 Using Public IP: 173.249.144.20
 Attempt 1/3 to solve CAPTCHA.
 CAPTCHA Image URL: https://www.projecthoneypot.org/captchas/hn_captcha_5f0ae3a6.jpg
