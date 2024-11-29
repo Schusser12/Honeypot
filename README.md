@@ -29,6 +29,9 @@ Warning: Permanently added 'cloudhost-143970.us-west-1.nxcli.net,173.249.144.20'
 └─$ sh delist.sh
 Puppeteer is not installed. Installing Puppeteer...
 Using Public IP: 173.249.144.20
+```
+- open the image in a browser and enter the captcha code in the prompt
+```bash
 Attempt 1/3 to solve CAPTCHA.
 CAPTCHA Image URL: https://www.projecthoneypot.org/captchas/hn_captcha_3485447e.jpg
 Enter the CAPTCHA text: bd454d8e
