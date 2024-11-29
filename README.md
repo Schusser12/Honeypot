@@ -85,3 +85,8 @@ CAPTCHA Image URL: https://www.projecthoneypot.org/captchas/hn_captcha_5f0ae3a6.
 Enter the CAPTCHA text: bd454d8e
 Form submitted successfully!
 ```
+- choose yes (clean up) if it succeeds
+```bash
+Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: y
+Performing cleanup...
+```
