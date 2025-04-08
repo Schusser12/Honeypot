@@ -60,3 +60,12 @@ Form submitted successfully!
 Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: y
 Performing cleanup...
 ```
+
+## Original addition
+Implemented the ProjectHoneyPot.sh script.
+This script checks IP addresses against Project Honey Pot to see if they've been whitelisted or blacklisted.
+
+When you run the script, it will read a list of IPs from a file. The file should contain one IP address per line.
+Each IP is checked on Project Honey Pot’s website, and the script will look for any whitelist-related messages.
+
+The latest relevant notice is shown for each IP, along with its status (e.g. Currently Whitelisted, Blacklisted, Scheduled for Whitelist, or Unknown).
