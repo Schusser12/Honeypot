@@ -1,32 +1,25 @@
+## 📚 Original Source
+
+This project is based on [delister](https://github.com/maximus-sallam/delister) by [@maximus-sallam](https://github.com/maximus-sallam).
+
+All credit goes to the original author. I’ve cloned it here for experimentation, learning, and potential modifications.
+
 # delister
 This JavaScript program automates IP delisting requests on Project Honey Pot using Puppeteer. It dynamically retrieves the public IP, fills out the form fields, handles CAPTCHA input by prompting the user, and retries up to 3 times if needed. It runs in headless mode, ensuring efficient automation while providing clear logs for success or failure.
 
 Designed for CentOS Linux release 7.9.2009 (Core)
 
-# Instructions
-- me into the server
+Clone the delister repository
 ```bash
-┌──(msallam🦄mellon-login01)-[~]
-└─$ me cloudhost-143970.us-west-1.nxcli.net
-Warning: Permanently added 'cloudhost-143970.us-west-1.nxcli.net,173.249.144.20' (ECDSA) to the list of known hosts.
-```
-
-- clone the delister repository
-```bash
-┌──(msallam🦄cloudhost-143970)-[~]
-└─$ git clone https://github.com/maximus-sallam/delister.git
+git clone https://github.com/Schusser12/Honeypot.git
 ```
 
 - move into the delister directory
-```bash
-┌──(msallam🦄cloudhost-143970)-[~]
-└─$ cd delister/
-```
+ cd delister/
 
 - run the delister bash script
 ```bash
-┌──(msallam🦄cloudhost-143970)-[~/delister]
-└─$ sh delist.sh
+sh delist.sh
 Puppeteer is not installed. Installing Puppeteer...
 Using Public IP: 173.249.144.20
 ```
@@ -54,8 +47,7 @@ Skipping cleanup.
 
 - then, try again
 ```bash
-┌──(msallam🦄cloudhost-143970)-[~/delister]
-└─$ sh delist.sh
+sh delist.sh
 Puppeteer is already installed.
 Using Public IP: 173.249.144.20
 Attempt 1/3 to solve CAPTCHA.
