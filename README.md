@@ -15,7 +15,9 @@ git clone https://github.com/Schusser12/Honeypot.git
 ```
 
 - move into the delister directory
- cd delister/
+```bash
+cd delister/
+```
 
 - run the delister bash script
 ```bash
