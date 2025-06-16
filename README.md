@@ -14,7 +14,7 @@ Clone the delister repository
 git clone https://github.com/Schusser12/Honeypot.git
 ```
 
-- move into the delister directory
+- move into the Honeypot directory
 ```bash
 cd delister/
 ```
