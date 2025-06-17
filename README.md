@@ -16,7 +16,7 @@ git clone https://github.com/Schusser12/Honeypot.git
 
 - move into the Honeypot directory
 ```bash
-cd delister/
+cd Honeypot/
 ```
 
 - run the delister bash script
@@ -43,7 +43,7 @@ Failed to solve CAPTCHA after maximum attempts.
 ```
 - choose no (don't clean up) if it fails
 ```bash
-Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: n
+Do you want to clean up the delister directory (rm -rf ~/Honeypot*)? [y/N]: n
 Skipping cleanup.
 ```
 
