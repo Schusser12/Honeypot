@@ -43,7 +43,7 @@ echo "$public_ip" > public_ip.txt
 node delist.js "$(cat public_ip.txt)"
 
 # Ask the user before performing the cleanup
-read -p "Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: " cleanup
+read -p "Do you want to clean up the Honeypot directory (rm -rf ~/Honeypot*)? [y/N]: " cleanup
 if [[ "$cleanup" =~ ^[Yy]$ ]]; then
     echo "Performing cleanup..."
     rm -rf ~/Honeypot*
