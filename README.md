@@ -59,7 +59,7 @@ Form submitted successfully!
 ```
 - choose yes (clean up) if it succeeds
 ```bash
-Do you want to clean up the delister directory (rm -rf ~/delister*)? [y/N]: y
+Do you want to clean up the delister directory (rm -rf ~/Honeypot*)? [y/N]: y
 Performing cleanup...
 ```
 
