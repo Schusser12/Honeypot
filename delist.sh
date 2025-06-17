@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export LD_LIBRARY_PATH=~/delister/usr/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=~/Honeypot/usr/lib64:$LD_LIBRARY_PATH
 
 # Check if Puppeteer is installed, and install it if not
 if ! npm list puppeteer@10 &>/dev/null; then
